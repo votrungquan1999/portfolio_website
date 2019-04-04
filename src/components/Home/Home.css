@@ -1,4 +1,5 @@
 .home{
+	font-family: avenir;
 	background-image: url("../../main_assets/images/portfolio-background.jpg");
 	min-width: 1280px;
 	/*width: 100%;*/

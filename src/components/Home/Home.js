@@ -10,6 +10,6 @@ const Home = () => {
 			<a href="/about" type="button" className="about-button">Learn more about me</a>
 		</div>
 	)
-}
+};
 
 export default Home

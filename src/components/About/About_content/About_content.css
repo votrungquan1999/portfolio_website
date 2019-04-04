@@ -5,29 +5,34 @@
 	width: content-box;
 }
 
-.about-content .portrait {
+.portrait {
 	border-radius: 50%;
 	align-self: center;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-.about-content .introduction {
+.right-column {
+	display: flex;
+	flex-direction: column;
+}
+
+.introduction {
 
 }
 
-.about-content .skill-statement {
+.skill-statement {
 	font-weight: bold;
 }
 
-.about-content .my-skills {
+.my-skills {
 	list-style-type: none;
 	display: block;
 	padding: 0;
 	margin-left: -10px;
 }
 
-.about-content .my-skills li {
+.my-skills li {
 	width: fit-content;
 	padding: 10px 20px;
 	margin: 10px;
@@ -39,4 +44,42 @@
 
 	font-weight: bold;
 	text-transform: capitalize;
+}
+
+.github-resume {
+	display: flex;
+	flex-direction: row;
+
+	margin-top: 50px;
+}
+
+.github-resume a {
+	display: block;
+
+	font-size: 20px;
+	color: white;
+	text-decoration: none;
+
+	width: fit-content;
+	height: fit-content;
+	padding: 10px 20px;
+	background-color: blue;
+	border-radius: 10px;
+	box-shadow: 0 5px 0 darkblue;
+	top: 50px;
+	margin-right: 20px;
+}
+
+.github-resume a:hover{
+	background-color: lightblue;
+}
+
+.github-resume .github-proj:active {
+	box-shadow: none;
+	margin-top: 5px;
+}
+
+.github-resume .resume:active {
+	box-shadow: none;
+	margin-top: 5px;
 }
