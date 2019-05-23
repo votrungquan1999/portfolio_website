@@ -1,21 +1,20 @@
-.experience {
-	font-family: avenir;
-	padding: 0;
-	margin-top: 73px;
-	margin-left: 100px;
-	margin-right: 100px;
+/*.experience {*/
+/*	padding: 0;*/
+/*	margin-top: 73px;*/
+/*	margin-left: 100px;*/
+/*	margin-right: 100px;*/
 
-	display: flex;
-	flex-direction: column;
-}
+/*	display: flex;*/
+/*	flex-direction: column;*/
+/*}*/
 
-.title {
-	font-size: 70px;
-	text-align: center;
-}
+/*.title {*/
+/*	font-size: 70px;*/
+/*	text-align: center;*/
+/*}*/
 
-.experiences {
-	margin-left: 150px;
-	margin-right: 150px;
-}
+/*.experiences {*/
+/*	margin-left: 150px;*/
+/*	margin-right: 150px;*/
+/*}*/
 

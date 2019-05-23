@@ -1,41 +1,28 @@
-.NavBar {
-	font-family: avenir;
-	background-color: #646464;
-	overflow: hidden;
-	display: flex;
-	flex-direction: row;
-	position: fixed;
-	top: 0;
-	width: 100%;
-	min-width: 1280px;
-}
-
 .NavBar ul {
-	text-align: right;
-	margin: 0 100px;
-	margin-left: auto;
+	list-style-type: none;
+	padding: 0;
+	width: fit-content;
+	margin: 50px auto 0 auto;
+
+	font-size: 40px;
 }
 
 .NavBar ul li {
-	list-style-type: none;
-	display: inline-block;
-	padding: 20px 40px;
-	margin: 0 auto;
-	border-radius: 20px;
-}
-
-.NavBar ul li:hover {
-	background-color: #c6e3ff;
+	display: inline;
+	margin-right: 30px;
 }
 
 .NavBar ul li a {
-	color: white;
-	text-align: right;
-	font-size: 30px;
-	font-weight: bolder;
 	text-decoration: none;
+	font-weight: bold;
+	padding: 10px 20px;
+	border-radius: 44px;
+
+	color: cornflowerblue;
 }
 
-.NavBar ul li a:visited {
+.NavBar ul li a:hover {
+	background-color: cornflowerblue;
+
 	color: white;
 }
